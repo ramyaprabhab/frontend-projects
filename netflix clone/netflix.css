@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: black;
+    font-family: "poppins";
+}
+.main{
+    background-image: url(images/bg.jpg);
+    height:85vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1600px,100vw);
+    position:relative;    /* width:100vw; */
+}
+.main .box{
+    height:85vh;
+    width:100%;
+    opacity:0.65;
+    position:absolute;
+    top:0;
+    background-color: black;
+    
+}
+/* nav bar starts here */
+nav{
+    margin-top:1000px;
+    max-width: 75vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    height:69px;
+
+}
+nav img{
+    color:red;
+    position:relative;
+    z-index:10;
+    width:150px;
+    margin-top:25px;
+
+}
+nav button{
+    position:relative;
+    z-index:10;
+}
+
+/* hero section starts  */
+.hero{
+    color:white;
+    height:calc(100% - 69px);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    position:relative;
+    /* font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; */
+    gap:23px;
+    padding:0 25px;
+}
+
+.hero> :first-child{
+    font-weight:700;
+    font-size: 48px;
+}
+.hero> :nth-child(2){
+    font-weight: 500;
+    font-size: 24px;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 19px;
+}
+.line{
+    height:7px;
+    background-color: rgba(72, 72, 72, 0.525);
+}
+.btn{
+    padding:7px 24px;
+    font-weight:490;
+    background-color:rgba(23,23,23,0.2);;
+    border-style: none;
+    border:0.5px solid rgba(255, 255, 255, 0.392);
+    color:white;
+    border-radius: 3.6px;
+}
+.btn-red{
+    background-color: red;
+    padding:11px 45px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "poppins";
+    cursor: pointer;
+    
+}
+.btn-red-sm{
+    background-color: red;
+    font-weight: 570;
+    padding:9px 20px;
+    cursor: pointer;
+    
+}
+.main input{
+    padding:15px 104px 15px 15px;
+    font-weight:490;
+    background-color:rgba(23,23,23,0.2);
+    border-style: none;
+    border:0.5px solid rgba(255, 255, 255, 0.392);
+    color:white;
+    border-radius: 3.6px;
+    font-size: 18px;
+    height:27px;
+}
+.hero-btns{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:12px;
+}
+.nav-btns{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    
+    
+}
+.btn-n{
+    padding:7px 20px;
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap:6px;
+    font-weight:700;
+}
+
+
+/* first section starts here */
+.first{
+    display:flex;
+    color:white;
+    max-width:80vw;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.text{
+    display:flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    gap:5px;
+}
+.first div :nth-child(1){
+    font-weight: 800;
+    font-size: 45px;
+}
+.first div :nth-child(2){
+    font-weight: 400;
+    font-size: 20px;
+}
+.SecImg{
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+
+}
+.tv1{
+    width:580px;
+    margin:40px 30px;
+    position: relative;
+}
+.vid1{
+    position: absolute;
+    top: 130px;
+    z-index: inherit;
+    width: 66%;
+    right: 131px;
+}
+
+.mobile{
+    margin: 50px;
+    width: 400px;
+}
+
+.tv2{
+    width: 100%;
+    height: auto;
+    display: block;
+    position:relative;
+    z-index: 2;
+}
+
+.vid2{
+    position: absolute;
+    top: 30px;
+    left: 88px;
+    width: 64%;
+    /* height: 100%; */
+    object-fit:cover;
+}
+.rc {
+    width: 60%;
+    margin: 89px;
+}
+.kids{
+    margin:35px 30px 35px 40px;
+}
+
+/* faq section starts hear  */
+.faq
+{color:white;
+padding:34px;
+}
+ h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 45px;
+    margin: 27px 8px;
+}
+.faqbox {
+    background-color: #2d2d2d;
+    transition: all 0.1s ease-out;
+    display: flex;
+    padding: 23px;
+    max-width: 75vw;
+    margin: 9px auto;
+    justify-content: space-between; /* Adjusted */
+    font-size: 22px; /* Adjusted */
+    cursor:pointer;
+    
+}
+.faq :hover{
+    background-color: #505050;
+    max-width: 75vw;
+
+}
+
+    
+.faq0{
+    color:white;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    margin:39px auto;
+}
+.fb{
+    margin: 20px;
+}
+
+
+footer{
+    color:white;
+    max-width:60vw;
+    margin:auto;
+    padding:44px;
+}
+footer .questions{
+    /* margin:auto; */
+    padding:44px 0;
+
+}
+.footer{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    color:white;
+}
+footer a{
+    font-size:14px;
+    color:white;
+}
+.footer-items{
+    padding:20px 0;
+    display:flex;
+    flex-direction:column;
+    gap:23px;
+
+}
