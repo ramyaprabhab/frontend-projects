@@ -1,4 +1,4 @@
-1. Netflix Clone (HTML & CSS)
+
 # Netflix Clone
 A simple static landing page that mimics the Netflix home screen design using HTML and CSS. This project helped me practice layout, styling, and responsive design.
 
@@ -7,7 +7,6 @@ A simple static landing page that mimics the Netflix home screen design using HT
 - Hero section with call-to-action buttons
 - Simple layout resembling Netflix’s design
 
-2. Sign-In Page
 
 # Sign-In Page
 
@@ -19,7 +18,6 @@ A basic sign-in page design using HTML and CSS, showcasing a user login form and
 - Remember me button
 - Basic styling
 
-3.Coffee Landing Page
 
 # Coffee Landing Page
 
