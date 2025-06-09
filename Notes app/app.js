@@ -12,9 +12,10 @@ btn.addEventListener("click",()=>{
     notesContainer.appendChild(inputBox).appendChild(img);
 })
 
-img.addEventListener("click", () => {
-    notesContainer.(inputBox);
-});
- 
-
+notesContainer.addEventListener(("click"), function(e){
+    if(e.target.tagName === "IMG"){
+        e.target.parentElement.remove();
+    }
+}
+)
 
